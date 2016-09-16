@@ -1,0 +1,10 @@
+[Unit]
+Description=Datadog Agent Service
+ 
+[Service]
+ExecStart=/home/s1/.datadog-agent/bin/agent
+StandardOutput=null
+ 
+[Install]
+WantedBy=multi-user.target
+Alias=datadog.service
