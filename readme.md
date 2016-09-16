@@ -9,8 +9,8 @@ Installation:
 2. Enable the new service
 
   ```
-  sudo systemctl enable mouselogger.service
-  sudo systemctl start mouselogger.service
+  sudo systemctl enable datadog.service
+  sudo systemctl start datadog.service
   ```
   
 3. Restart to test
