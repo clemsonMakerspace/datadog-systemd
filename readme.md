@@ -6,7 +6,7 @@ This repo contains the code used to start the datadog-agent on our TAM S1 Pro pr
 Install Datadog-Agent:
 ```
 sudo apt update
-sudo apt install ntp, curl, sysstat
+sudo apt install ntp curl sysstat
 DD_API_KEY=INSERT_KEY_HERE sh -c "$(curl -L https://raw.githubusercontent.com/DataDog/dd-agent/master/packaging/datadog-agent/source/setup_agent.sh)"
 ```
 Install and enable Datadog service
